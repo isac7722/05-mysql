@@ -31,6 +31,7 @@
 				"auth-model": "native"
 			},
 			"custom-properties": {
+				"SQLEditor.ContentAssistant.insert.case": "0",
 				"sql.format.keywordCase": "UPPER"
 			}
 		}
