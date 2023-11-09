@@ -16,18 +16,25 @@
 				"auth-model": "native"
 			}
 		},
-		"mysql8-18ba8143b90-5a56042977bf6075": {
+		"mysql8-18bb16f58e8-f2a488e4a33d957": {
 			"provider": "mysql",
 			"driver": "mysql8",
 			"name": "실습커넥션",
 			"save-password": true,
 			"configuration": {
-				"host": "실습 커넥션",
+				"host": "localhost",
 				"port": "3306",
-				"url": "jdbc:mysql://실습 커넥션:3306/",
+				"database": "menudb",
+				"url": "jdbc:mysql://localhost:3306/menudb",
 				"configurationType": "MANUAL",
 				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
 				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
 				"auth-model": "native"
 			},
 			"custom-properties": {
