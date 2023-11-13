@@ -1,44 +1,10 @@
 {
 	"folders": {},
 	"connections": {
-		"mysql8-18ba813ad4d-5e8e434966d3ee59": {
-			"provider": "mysql",
-			"driver": "mysql8",
-			"name": "localhost",
-			"save-password": true,
-			"configuration": {
-				"host": "localhost",
-				"port": "3306",
-				"url": "jdbc:mysql://localhost:3306/",
-				"configurationType": "MANUAL",
-				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
-				"type": "dev",
-				"auth-model": "native"
-			}
-		},
-		"mysql8-18ba8143b90-5a56042977bf6075": {
-			"provider": "mysql",
-			"driver": "mysql8",
-			"name": "실습커넥션",
-			"save-password": true,
-			"configuration": {
-				"host": "실습 커넥션",
-				"port": "3306",
-				"url": "jdbc:mysql://실습 커넥션:3306/",
-				"configurationType": "MANUAL",
-				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
-				"type": "dev",
-				"auth-model": "native"
-			},
-			"custom-properties": {
-				"SQLEditor.ContentAssistant.insert.case": "0",
-				"sql.format.keywordCase": "UPPER"
-			}
-		},
 		"mysql8-18bb16f58e8-f2a488e4a33d957": {
 			"provider": "mysql",
 			"driver": "mysql8",
-			"name": "menudb",
+			"name": "실습커넥션",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",
@@ -54,6 +20,46 @@
 					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
 					"allowPublicKeyRetrieval": "true"
 				},
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"SQLEditor.ContentAssistant.insert.case": "0",
+				"sql.format.keywordCase": "UPPER"
+			}
+		},
+		"mysql8-18bb70568c1-9a868210723668f": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost ",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-18bc75ea2a5-4dc4db8093677c66": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "192.168.0.18",
+			"save-password": true,
+			"configuration": {
+				"host": "192.168.0.18",
+				"port": "3306",
+				"url": "jdbc:mysql://192.168.0.18:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
 				"auth-model": "native"
 			}
 		}
